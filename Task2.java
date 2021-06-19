@@ -1,5 +1,5 @@
 import java.time.*;
-import java.util.*;
+
 
 public class Task2 {
 
@@ -17,7 +17,7 @@ public class Task2 {
 		LocalDateTime t1 = LocalDateTime.now();
 		LocalDateTime t2 = t1.plusYears(3);
 		DayOfWeek t3
-        = DayOfWeek.from(t2);
+       		 = DayOfWeek.from(t2);
 		System.out.println(t3);
 		//4
 		System.out.println("引数が０なら偽。引数が１なら真");
